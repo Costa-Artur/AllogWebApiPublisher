@@ -5,34 +5,10 @@ namespace Univali.Api.Repositories;
 
 public interface IPublisherRepository
 {
-     // COURSE GET
-    Task<Course?> GetCourseByIdAsync(int courseId); 
-    Task<Course?> GetCourseWithAuthorsByIdAsync(int courseId); 
-
-    // COURSE POST
-    void AddCourse(Course course);
-
-    // COURSE PUT
-    void UpdateCourse(Course course, CourseForUpdateDto courseForUpdateDto);
-
-    // COURSE DELETE
-    void RemoveCourse(Course course);
-
-    // UTILS
-    Task<List <Author>> GetAuthorsAsync(List<int> authors);
-
     // CONTEXT COMMIT
     Task<bool> SaveChangesAsync();
-    
-    //AUTHOR
-    void AddAuthor (Author author);
-    void DeleteAuthor (int authorId);
-    Task<Author?> GetAuthorByIdAsync (int authorId);
-    Task<Author?> GetAuthorWithCoursesByIdAsync (int authorId);
-    Task<bool> AuthorExistsAsync (int authorId);
-
     //PUBLISHER
     void AddPublisher (Publisher publisher);
 
-    Task<Publisher?> GetPublisherByIdAsync (int publisher);
+    Task<Publisher?> GetPublisherByIdAsync (int publisherId);
 }

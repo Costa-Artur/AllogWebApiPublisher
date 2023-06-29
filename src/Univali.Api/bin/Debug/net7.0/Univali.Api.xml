@@ -82,5 +82,17 @@
         <member name="M:Univali.Api.Migrations.Author.AuthorContextManyToMany.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:Univali.Api.Migrations.Publisher.AddPublisherContext">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.AddPublisherContext.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.AddPublisherContext.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Univali.Api.Migrations.Publisher.AddPublisherContext.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

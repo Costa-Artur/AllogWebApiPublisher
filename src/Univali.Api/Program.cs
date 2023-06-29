@@ -25,6 +25,7 @@ builder.Services.AddSingleton<Data>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
 
 builder.Services.AddAuthentication("Bearer").AddJwtBearer( options =>
     options.TokenValidationParameters = new ()
@@ -51,6 +52,12 @@ builder.Services.AddDbContext<CustomerContext>(options =>
 }
 );
 builder.Services.AddDbContext<AuthorContext>(options => 
+{
+    options
+    .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=123456");
+}
+);
+builder.Services.AddDbContext<PublisherContext>(options => 
 {
     options
     .UseNpgsql("Host=localhost;Database=Univali;Username=postgres;Password=123456");

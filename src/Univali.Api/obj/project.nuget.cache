@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rRF7wSIyOtcla6fAFSw7WW0LVtagFJvZnBoK5UTVyP04NszrKaGO6VgzAHZ+NqiRWx6xlBaw9jerb669vKXpoA==",
+  "dgSpecHash": "NvSxfV9FgprpovYo0oGLRquX5K48VaYzSJWFFPaV+rwujZgH4aBjc/e/AVbikIE3qVonmyW0i/JwSgIuxTHerQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\artur\\Downloads\\allog_ex_entity_framework_api-main\\allog_ex_entity_framework_api-main\\src\\Univali.Api\\Univali.Api.csproj",
+  "projectFilePath": "C:\\Users\\artur\\Downloads\\allog_ex_entity_framework_api-main\\allog_ex_entity_framework_api-main\\src\\univali.api\\Univali.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artur\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
